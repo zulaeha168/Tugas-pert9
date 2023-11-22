@@ -214,7 +214,8 @@ Jika awal pembuatan project kita memilih template Empty Views Activity, maka pad
 
 
 Maka tampilannya akan seperti ini :
-WhatsApp Image 2023-11-19 at 19 11 46_b9d46af7
+
+![Hasil run](https://github.com/zulaeha168/Tugas-pert9/assets/130324650/39c808ec-9121-4d44-9c99-03d4ec1b952f)
 
 Setelah itu kita buka MainActivity.java untuk menambahkan code intent untuk masing-masing tombol :
 package com.tgs9;
