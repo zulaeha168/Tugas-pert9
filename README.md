@@ -1040,5 +1040,7 @@ Tambahkan code berikut pada bagian application agar set alarm dapat berjalan :
 </activity>
 Hasil Run
 Berikut adalah hasil running dari aplikasi yang telah saya buat :
- video_20231119_175150_edit.2.mp4 
-Sekian, Terima kasih
+ 
+https://github.com/zulaeha168/Tugas-pert9/assets/130324650/2af8e29f-a9ca-44be-a69e-da01ca12c86d
+
+Sekian, Terima kasih.
