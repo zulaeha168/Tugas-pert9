@@ -750,7 +750,7 @@ public class SianidaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scrollmovie);
     }
 }
-## D. Code TwoActivity
+## D. Code Project TwoActivity
 > 'activity_twoactivity.xml'
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -1008,11 +1008,10 @@ Pertama, buatlah button terlebih dahulu pada activity_main.xml, bersama dengan b
         android:layout_marginTop="20dp"
         android:layout_marginEnd="100dp"
         android:onClick="btnSetAlarm"
-        android:background="@color/tosca"
+        android:background="@color/purple"
         android:text="Set Alarm"
         tools:ignore="UsingOnClickInXml"
         android:scaleType="centerCrop"/>
-
 Lalu tambahkan code Implicit Intent pada MainActivity,java :
 
 findViewById(R.id.btnSetAlarm).setOnClickListener(new View.OnClickListener() {
@@ -1040,7 +1039,6 @@ Tambahkan code berikut pada bagian application agar set alarm dapat berjalan :
 </activity>
 Hasil Run
 Berikut adalah hasil running dari aplikasi yang telah saya buat :
- 
 https://github.com/zulaeha168/Tugas-pert9/assets/130324650/2af8e29f-a9ca-44be-a69e-da01ca12c86d
 
 Sekian, Terima kasih.
