@@ -436,7 +436,6 @@ A. Code Project Hello World
         tools:ignore="TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
 > 'HelloActivity.java'
 
 package com.example.projectzulaeha;
@@ -550,7 +549,6 @@ B. Code Project Count
         tools:ignore="RtlCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
 > 'CountActivity.java'
 
 package com.example.projectzulaeha;
@@ -1038,5 +1036,4 @@ Tambahkan code berikut pada bagian application agar set alarm dapat berjalan :
 Hasil Run
 Berikut adalah hasil running dari aplikasi yang telah saya buat :
 https://github.com/zulaeha168/Tugas-pert9/assets/130324650/2af8e29f-a9ca-44be-a69e-da01ca12c86d
-
 Sekian, Terima kasih.
