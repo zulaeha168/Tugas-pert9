@@ -823,7 +823,6 @@ public class SianidaActivity extends AppCompatActivity {
         app:layout_constraintEnd_toStartOf="@+id/button_main"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
 > 'activity_twoact2.xml'
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -894,7 +893,6 @@ public class SianidaActivity extends AppCompatActivity {
         app:layout_constraintEnd_toStartOf="@+id/button_second"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
 > 'TwoActivity.java'
 
 package com.example.projectzulaeha;
@@ -955,7 +953,6 @@ public class TwoActivity extends AppCompatActivity {
         }
     }
 }
-
 > 'Two2Activity.java'
 
 package com.example.projectzulaeha;
