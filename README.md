@@ -1,4 +1,5 @@
 # Tugas-pert9
+
 Nama : Zulaeha
 
 NIM : 312210575
@@ -7,7 +8,7 @@ Kelas : TI.22.A5
 
 Mata Kuliah : Pemograman Mobile 1
 
-Tugas :
+## 1. Tugas :
 Buatkanlah :
 
 1. Launcher Splash logo masing-masing Individu 
@@ -96,7 +97,7 @@ Buka AndroidManifest.xml, dan tambahkan code berikut didalam application :
 </activity>
 Selesai sudah kita membuat perintah Launcher Splash Logo, Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan semua project yang sudah dibuat pada pertemuan sebelumnya.
 
-2. Menu Utama
+## 2. Menu Utama
 Yang kedua, disini kita akan membuat menu utamanya yang akan berjalan setelah SplashScreen Logo. Caranya adalah:
 
 Jika awal pembuatan project kita memilih template Empty Views Activity, maka pada layout otomatis terbuat file activity_main.xml dan pada java akan ada MainActivity.java. Maka langsung saja kita buka activity_main.xml, dan buat code seperti berikut ini:
@@ -991,8 +992,8 @@ public class Two2Activity extends AppCompatActivity {
     }
 }
 ## E. Code Project Set Alarm
-Pertama, buatlah button terlebih dahulu pada activity_main.xml, bersama dengan button aplikasi lainnya :
-
+* Pertama, buatlah button terlebih dahulu pada activity_main.xml, bersama dengan button aplikasi lainnya :
+  
 <Button
         android:id="@+id/btnSetAlarm"
         android:layout_width="150dp"
@@ -1008,7 +1009,7 @@ Pertama, buatlah button terlebih dahulu pada activity_main.xml, bersama dengan b
         android:text="Set Alarm"
         tools:ignore="UsingOnClickInXml"
         android:scaleType="centerCrop"/>
-Lalu tambahkan code Implicit Intent pada MainActivity,java :
+* Lalu tambahkan code Implicit Intent pada MainActivity,java :
 
 findViewById(R.id.btnSetAlarm).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1022,9 +1023,12 @@ findViewById(R.id.btnSetAlarm).setOnClickListener(new View.OnClickListener() {
         Intent alarm = new Intent(android.provider.AlarmClock.ACTION_SET_ALARM);
         startActivity(alarm);
     }
-Selanjutnya buka AndroidManifest.xml dan tambahkan code untuk izin membuka Alarm :
+* Selanjutnya buka AndroidManifest.xml dan tambahkan code untuk izin membuka Alarm :
+  
 <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
-Tambahkan code berikut pada bagian application agar set alarm dapat berjalan :
+
+*Tambahkan code berikut pada bagian application agar set alarm dapat berjalan :
+
 <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -1033,7 +1037,9 @@ Tambahkan code berikut pada bagian application agar set alarm dapat berjalan :
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 </activity>
-Hasil Run
+
+## Hasil Run
 Berikut adalah hasil running dari aplikasi yang telah saya buat :
 https://github.com/zulaeha168/Tugas-pert9/assets/130324650/2af8e29f-a9ca-44be-a69e-da01ca12c86d
-Sekian, Terima kasih.
+
+Sekian, Terima kasih
