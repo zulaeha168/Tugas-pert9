@@ -1,5 +1,4 @@
 # Tugas-pert9
-# Tugas-UTS-Fibonacci
 
 Nama : Zulaeha
 
@@ -10,15 +9,6 @@ Kelas : TI.22.A5
 Mata Kuliah : Pemrograman Mobile 1
 
 Dosen Pengampu : Donny Maulana, S.Kom.,M.M.S.I.
-
-Tugas : Buatlah Method Program java Toast Number, dengan menghasilkan Bilangan Fibonacci
-
-
-
-Nama : Zulaeha
-NIM : 312210575
-Kelas : TI.22.A5
-Mata Kuliah : Pemograman Mobile 1
 
 
 ## Tugas :
@@ -997,4 +987,4 @@ findViewById(R.id.btnSetAlarm).setOnClickListener(new View.OnClickListener() {
   
   https://github.com/zulaeha168/Tugas-pert9/assets/130324650/2af8e29f-a9ca-44be-a69e-da01ca12c86d
   
-# Sekian, Terima kasih
+# Sekian, Terima kasih.
